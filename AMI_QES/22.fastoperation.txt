@@ -1,0 +1,3 @@
+Which is fastest among i++ and i+1? Why?
+ans::
+To perform this operation compiler has to perform two operations: (1)ADD \i+1 (2)Assignment operation i=x i++: To perform this operation compiler has to perform only one operation: (1)INR Note: above operation are microprocessor instructions i.e. in assembly language so i++ is faster
