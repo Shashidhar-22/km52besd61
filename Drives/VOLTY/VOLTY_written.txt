@@ -1,0 +1,89 @@
+
+Programs:
+1.) WAP using recursion itoa function?
+2.)write a program to strend(st,temp) if st then return will be 1 and if temp then return will be 0?
+3.)compare two files print the first line where they differ?
+
+Small questions:
+1.)difference between const*ptr and *const ptr?
+2.)difference between null and void pointer?
+3.)if you buy an RTOS what type of features you will check?
+4.)what is deadlock and what is the use of dead lock how do you prevent dead lock?
+5.)what is use of loop in embedded systems?
+6.)what is scope of the variable?
+7.)difference between realloc and free?
+8.)why multithreads is better than single thread?
+9.)what is the time for the instruction execution in 8051 microcontroller?
+10.)what is the work of watchdog?
+
+
+Mcqs:
+	1.)
+int main()
+{
+	int arr[3][3]={1,2,3,4,5,6,7,8,9};
+	int *ptr=&arr;
+	printf("%u",arr[2]);
+	printf("%d",ptr[2]);
+	printf("%d",*(ptr+2));
+}
+
+
+2.)
+static int i=10;
+int main()
+{
+	i=5;
+	for(i=0;i<5;i++)
+	{
+		static int a=10;
+		printf("%d",a++);
+	}
+	return 0;
+}
+
+	3.)
+int main()
+{
+	extern i;
+	i=20;
+	printf("%d",i);
+}
+
+
+
+4.)
+int main() {
+
+	char s[]={'a','b','c','\n','e','\0'};
+	char *p,*str, *str1; p=&s[3];
+	str=p;
+	str1=s;
+	printf("%d",++*p + ++*str1-32);
+	  return 0;
+}
+
+5).
+int main(){
+
+	int i=-1,j=-1,k=0,l=2,m;
+	m=i++&&j++&&k++|| l++;
+	printf("%d %d %d%d%d ",i,j,k,l,m);
+
+	  return 0;
+}
+
+6).
+int main(){
+	void *vp;
+	char  ch=74, *cp="JACK";
+	int j=65;
+	vp=&ch;
+	printf("%c", (char)vp);
+	vp=&j;
+	printf("%c", (int)vp);
+	vp=cp;
+	printf("%s", (char*)vp+2);
+	return 0;
+}
+

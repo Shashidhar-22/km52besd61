@@ -1,0 +1,198 @@
+1)Consider the following snippet:
+int a=0x;
+char *c;
+c=&a;
+printf("%x\n",a);
+for(int i=0;i<4;i++)
+printf("%c",*(c+i));
+Assuming Little Endian location, what must be filled in the blank to get the output “ABCD”:
+
+64636261
+44434241
+41424344
+61626364
+
+2) Suppose I run the following on the linux terminal
+gcc program.c
+
+Which of the following commands executes the code while taking console input from in.txt?
+./a.out < in.txt
+./a.out << in.txt
+./a.out   in.txt
+./a.out -i in.txt
+
+3)Which of the following operators in C++ cannot be overloaded?
+&
+|
+.
+<<
+*
+
+4)Given an empty Red  Black Binary Search Tree, how many operations do you need to achieve a tree with 7 black nodes?[every insertion/deletion is one operation and assume standard insertion and deletion procedures]
+13
+7
+16
+10
+
+5)What is the output of the following C++ code snippet?:
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	int x=1<<16;
+	cout << hex << x ;
+	cout << “ “<< x;
+}
+
+compilation error
+10000 65536
+65536 65536
+10000 10000
+
+6)What’s the number closest to the output?
+#include<stdio.h>
+int main()
+{
+	int sum =0;
+	for(int i=1;i<1000;i++)
+	{
+		sum += 6*1/(i*i);
+
+	}
+	printf("%d\n",sum);
+}
+π2
+π2  /6
+6
+7
+
+7)What if the ASCII value of EOF[end of file character]?
+127
+0
+253
+Does not exist
+Other:
+
+8)What is the minimum number of random integers  you need  to generate using rand() to generate a guassian random variable?
+Not possible
+One
+Three
+Two
+Other:
+
+9)If you have 2 sets A and B containing m and n integers respectively such that A and B have no common elements
+
+and you choose an ordered triplet (a,b,c) such that a,c ∈ A and b ∈  B
+
+such that a^b=c, where ^ indicates the bitwise XOR operation between two integers and the total number of ordered triplets is given by N
+
+What is the time complexity required to calculate  N|mod 2?Your third question?
+
+	O(1)
+	0(2m + n)
+	O(m2n)
+O(mn)
+
+	10)What is the minimum time complexity required to compute the product of an integer with N digits?
+	O(n)
+	0(n2)
+	O(log2n)
+O(n log2n)
+	Other:
+
+	11)If a binary search tree has the following in order traversal, what is it’s corresponding pre order traversal?
+
+	1 6 8 9 10 17 18 19 20 36 38 41 54 57 65 83 99
+
+	38 10 8 6 1 9 18 17 20 19 36 54 41 65 57 99 83
+	38 10 8 6 9 17 19 36 20 18 1 41 57 83 99 65 54
+	38 10 8 6 1 9 18 16 19 20 17 54 41 65 83 99 57
+	Cannot be determined
+
+	12)What is the output of the following code snippet?
+	int x=0;
+	for(int i=0;i<32;i++)
+	x+=(1<<i);
+	printf(“%d”,x);
+
+	4294967295
+	-4294967296
+	-1
+	0
+	Other:
+
+	13)What is the output of the following code snippet?
+	int a=1<<2+1<<2;
+	a+=a|a/2;
+	a*=(a>a^a/2)?a:a^a/2;
+	printf("%d ",a);
+
+	400
+	6400
+	25600
+	104857600
+	Other:
+
+	14)which header file contains the rand() function in C?
+
+	stdio.h
+	rand.h
+	stdlib.h
+	math.h
+
+	15)What does dynamic programming achieve?
+
+	Improves space complexity and time complexity
+	Sacrifices space complexity for time complexity
+	Sacrifices time complexity for space complexity
+	Sacrifices time complexity and space complexity
+	Other:
+
+	16)If a binary search tree has the following post order traversal, what is it’s corresponding pre order traversal?
+
+	1 6 9 8 17 19 36 20 18 10 41 57 83 99 65 54 38
+
+	38 10 8 6 1 9 18 17 20 19 36 54 41 65 57 99 83
+	38 10 8 6 9 17 19 36 20 18 1 41 57 83 99 65 54
+	38 10 8 6 1 9 18 16 19 20 17 54 41 65 83 99 57
+	Cannot be determined
+
+	17)Arrange the following operators in decreasing precedence:
+	&- reference
+	&&-logical AND
+	&-bitwise AND
+
+	Reference, Bitwise, Logical
+	Reference,Logical,Bitwise
+	Bitwise, Logical, Reference
+	Bitwise, Reference, Logical
+	Other:
+
+	18)In C, which of the following operators is used to extend a preprocessor into multiple lines?
+	|
+	/
+	\
+		All of the above
+
+		19)What is the minimum number of traversals required to reverse a singly linked list?
+
+		0
+		1
+		2
+		3
+
+		20)In C++, what is the output of the following code?
+
+#include<iostream>
+		using namespace std;
+int main()
+{
+	int x=34;
+	cout<<(x<<4)<<endl;
+}
+
+344
+544
+Compilation error
+None of the above

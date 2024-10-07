@@ -1,0 +1,8 @@
+##(05-6-2024)
+1.self introduction
+2.Project Block Diagram
+3.socket programming system calls
+4.task 2 project deeply
+5.about RTOS
+6.who systic timer works
+7.explain CAN protocal
