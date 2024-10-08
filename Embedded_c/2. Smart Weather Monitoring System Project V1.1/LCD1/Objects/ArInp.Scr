@@ -1,0 +1,3 @@
+--create .\Objects\LCD.lib
+.\objects\lcd.o
+"..\KM SYSTICK TIMER LIBRARY\Objects\SYSTICK LIBRARY.lib"

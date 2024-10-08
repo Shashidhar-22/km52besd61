@@ -1,0 +1,2 @@
+--create .\Objects\ADC_LM35.lib
+.\objects\adc_lm35.o

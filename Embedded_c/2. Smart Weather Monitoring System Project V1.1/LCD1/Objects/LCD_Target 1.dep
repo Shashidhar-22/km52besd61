@@ -1,0 +1,16 @@
+Dependencies for Project 'LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\LCD.c)(0x65927BDE)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "S:\kernel masters\LAB\RAAYANMINI\KM LIBARARIES\LCD1\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (systick.h)(0x658EBEF0)
+F (..\KM SYSTICK TIMER LIBRARY\Objects\SYSTICK LIBRARY.lib)(0x658EBEF0)()
+F (..\KM LCD LIBRARY\systick.h)(0x658E9E6C)()
+F (RTE\Device\STM32F401RBTx\startup_stm32f401xc.s)(0x5C5BB34A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I "S:\kernel masters\LAB\RAAYANMINI\KM LIBARARIES\LCD1\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
+F (RTE\Device\STM32F401RBTx\system_stm32f4xx.c)(0x5C5BB34A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "S:\kernel masters\LAB\RAAYANMINI\KM LIBARARIES\LCD1\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BB34A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x5C5BB34A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F6E06)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F6E06)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F6E06)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F6E06)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F6E06)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BB34A)

@@ -1,0 +1,2 @@
+--create ".\Objects\SYSTICK LIBRARY.lib"
+.\objects\systick.o
