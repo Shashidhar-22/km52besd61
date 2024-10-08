@@ -1,0 +1,35 @@
+Problems Faced While performing Embedded projects
+
+1.DEVICE NOT FOUND
+Problem: While loading the code to Rayyan mini board  it shown device not found .
+solution: while setting the particular register bits dont distrube to reserved registers bits and unnesserly enabling other ports the proccser flash memory code will corrupt, so  programm will not dump to board.
+solution : Go to boot mode and load flash memory code again with the help of STM Flash Demonstrater Application.
+
+2.FLASH DOWNLOAD ERROR:
+This Error was thrown when there are any errors in program during dumping program into flash memory.
+SOLUTION:
+We need to check syntatical errors in the program mentioned at the specific points and fix it to avoid further such error .
+
+ 3.ST-LINK NOT CONNECTED ERROR:
+This Error Indicates a failure to establish a connection between the development environment and the ST-Link debugger.
+SOLUTION:
+Ensure proper physical connections between the ST-LINK debugger and the target device.
+To do this,Select ST-LINK DEBUGGER in settings.
+
+4.ST-LINK NOT FOUND
+While porforming board to board commiunication project when code is loading to board
+it shown ST-LINK NOT FOUND .
+SOULTION: While loading the code first load the code to first board and remove .After removing first board then load code to the second board  and perform project.Dont connect both boards at a time the keil application is confuce and shows error in the form of ST_LINK NO CONNECTED.
+
+5.NO TARGET DETECTED:
+This Error was thrown when we try to debug a program in interrupt mode without enabling the sleep debug mode.
+SOLUTION:
+To avoid such error,one should always do not forget to enable sleep debug mode.To get back to normal mode of debugging and flashing,we need to move boot pins 1,2 to high then flash the program so that p    rogram flash into SRAM instead of Flash memory. And click on the Reset the board,next move boot pins 1,2 to original positions and flash the programm.
+
+6.LINKER ERROR
+While doing SWMS V1.1 when compiling the code it shown linker error due to missing of required headerfile or main function.
+SOULTION: Add all required header files  to project window.
+
+7.DOCKLIGHT 
+When working with UART6 WIFI ESP8266  .After starting the comminication instand of wifi AT commonds it showing Garbage values
+SOLUTION:  Before starting FIrst select the Bard rate and start communication. 
