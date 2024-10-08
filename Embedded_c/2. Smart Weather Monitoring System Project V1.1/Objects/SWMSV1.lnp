@@ -1,0 +1,13 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+"..\LIBRARY\ADC_LM35\Objects\ADC_LM35.lib"
+"..\LIBRARY\KM I2C LIBRARY\RaayanMini_KM_HAL_I2C_Libraries.lib"
+"..\LIBRARY\KM SYSTICK TIMER LIBRARY\Objects\SYSTICK LIBRARY.lib"
+"..\LIBRARY\LCD1\Objects\LCD.lib"
+"..\LIBRARY\TIMECHANGE\Objects\time change.lib"
+"..\LIBRARY\UART6\Objects\UART6.lib"
+".\objects\startup_stm32f401xc.o"
+".\objects\system_stm32f4xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SWMSV1.map" -o .\Objects\SWMSV1.1
