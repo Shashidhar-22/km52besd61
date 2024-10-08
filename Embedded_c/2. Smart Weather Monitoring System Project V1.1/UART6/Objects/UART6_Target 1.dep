@@ -1,0 +1,4 @@
+Dependencies for Project 'UART6', Target 'Target 1': (DO NOT MODIFY !)
+F (.\UART6.c)(0x6592869C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "S:\kernel masters\LAB\RAAYANMINI\KM LIBARARIES\UART6\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\uart6.o --omf_browse .\objects\uart6.crf --depend .\objects\uart6.d)
+F (RTE\Device\STM32F401RBTx\startup_stm32f401xc.s)(0x5C5BB34A)()
+F (RTE\Device\STM32F401RBTx\system_stm32f4xx.c)(0x5C5BB34A)()

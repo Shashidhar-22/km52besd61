@@ -1,0 +1,5 @@
+--create ".\Objects\time change.lib"
+".\objects\time change.o"
+..\LCD1\Objects\LCD.lib
+"..\KM SYSTICK TIMER LIBRARY\Objects\SYSTICK LIBRARY.lib"
+"..\KM I2C LIBRARY\RaayanMini_KM_HAL_I2C_Libraries.lib"

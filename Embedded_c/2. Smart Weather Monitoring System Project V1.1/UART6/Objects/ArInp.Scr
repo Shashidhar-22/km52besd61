@@ -1,0 +1,2 @@
+--create .\Objects\UART6.lib
+.\objects\uart6.o
